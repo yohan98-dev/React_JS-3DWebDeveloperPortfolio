@@ -29,6 +29,11 @@ import {
   python,
   mysql,
   unity,
+  smoothScroll,
+  todo,
+  fitness,
+  blogapp,
+  port,
 } from "../assets";
 
 export const navLinks = [
@@ -214,58 +219,82 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Gaming Blog",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Blog Site about Video Games with login and user registration. Each user can post blogs and Edit posts that posted by them. Frontend with React and backend with Node.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "expressJs",
         color: "pink-text-gradient",
       },
+      {
+        name: "Node",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: blogapp,
+    source_code_link: "https://github.com/yohan98-dev/MERN-BlogApp-client",
   },
   {
-    name: "Job IT",
+    name: "Fitness App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Fitness app containing exersices for different parts of the body. Exercises Data is taken Form RapidAPI ExerciseDB. Used meterial UI for the user interface.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "RapidAPI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: fitness,
+    source_code_link: "https://github.com/yohan98-dev/React-js-FitnessApp",
   },
   {
-    name: "Trip Guide",
+    name: "Smooth Scrolling Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Simple website with HTML, CSS, and Smooth Scrolling mothion done with JavaScript.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: smoothScroll,
+    source_code_link: "https://github.com/yohan98-dev/JS-smoothScrollWeb",
+  },
+  {
+    name: "To-Do app",
+    description: "Simple to-do  app with HTML,CSS and JavaScript .",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
@@ -273,8 +302,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: todo,
+    source_code_link: "https://github.com/yohan98-dev/JS-Todo-List-App",
+  },
+  {
+    name: "My 3D portfolio",
+    description:
+      "Portfolio with 3d graphics and animations using ThreeJS, Framer Motion, React Three Fiber and TailwindCSS.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: port,
+    source_code_link:
+      "https://github.com/yohan98-dev/React_JS-3DWebDeveloperPortfolio",
   },
 ];
 

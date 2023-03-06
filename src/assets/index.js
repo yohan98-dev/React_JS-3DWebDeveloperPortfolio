@@ -35,8 +35,18 @@ import amcc from "./company/amcc.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import blogapp from "./blogApp.png";
+import fitness from "./fitness.png";
+import smoothScroll from "./SmoothScroll.png";
+import todo from "./todo.png";
+import port from "./port.png";
 
 export {
+  port,
+  blogapp,
+  fitness,
+  smoothScroll,
+  todo,
   logo,
   backend,
   creator,
