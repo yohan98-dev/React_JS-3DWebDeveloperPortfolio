@@ -308,7 +308,7 @@ const projects = [
   {
     name: "My 3D portfolio",
     description:
-      "Portfolio with 3d graphics and animations using ThreeJS, Framer Motion, React Three Fiber and TailwindCSS.",
+      "Portfolio with 3d graphics and animations using ThreeJS, Framer Motion, React Three Fiber and TailwindCSS. Has a working Email function using EmailJs",
     tags: [
       {
         name: "React",
