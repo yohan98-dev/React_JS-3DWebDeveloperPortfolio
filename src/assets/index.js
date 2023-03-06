@@ -20,11 +20,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
+import mysql from "./tech/mysql.png";
+import unity from "./tech/unity.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import UOR from "./company/UOR.png";
+import amcc from "./company/amcc.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  UOR,
+  amcc,
+  java,
+  python,
+  mysql,
+  unity,
 };

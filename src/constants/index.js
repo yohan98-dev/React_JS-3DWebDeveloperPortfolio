@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  UOR,
+  amcc,
+  java,
+  python,
+  mysql,
+  unity,
 } from "../assets";
 
 export const navLinks = [
@@ -68,105 +74,115 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
+
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+
   {
     name: "Node JS",
     icon: nodejs,
   },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+
+  {
+    name: "Java",
+    icon: java,
+  },
+
+  {
+    name: "Python",
+    icon: python,
+  },
+
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySql",
+    icon: mysql,
   },
+
   {
     name: "git",
     icon: git,
   },
+
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Unity 3D",
+    icon: unity,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Student",
+    company_name: "R/ Ananda Maithreya Central College",
+    icon: amcc,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2009 - Aug 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in extracurricular activities developing my social skills.",
+      "Passed GCE Ordinary Level exams with A-4, B-3 And C-2 ",
+      "Did Advanced levels with Technology Stream and Passed with 3Cs",
     ],
   },
+
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Undergraduate",
+    company_name: "University of Ruhuna",
+    icon: UOR,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2019 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing My Communication skills so i can articulate my ideas and collaborate effectively with others.",
+      "Developing My professional skills, such as leadership, teamwork, and project management This can help prepare myself for my future career.",
+      "With wide range of Academic programs that provided me with in-depth knowledge Of the field of IT and new Technologies that are currently used in the industry.",
+      "Participating in External clubs and Societies Such as ICT Society, Leo club and FOT gaming Club has helped me develop my Social Skills.",
     ],
   },
+
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
