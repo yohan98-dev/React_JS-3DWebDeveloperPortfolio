@@ -34,6 +34,7 @@ import {
   fitness,
   blogapp,
   port,
+  flappy,
 } from "../assets";
 
 export const navLinks = [
@@ -326,6 +327,24 @@ const projects = [
     image: port,
     source_code_link:
       "https://github.com/yohan98-dev/React_JS-3DWebDeveloperPortfolio",
+  },
+
+  {
+    name: "Flappy Bird Clone",
+    description:
+      "Popular Flappy bird game Clone created using Unity 3d Game Engine",
+    tags: [
+      {
+        name: "Unity3D",
+        color: "blue-text-gradient",
+      },
+      {
+        name: " C#",
+        color: "green-text-gradient",
+      },
+    ],
+    image: flappy,
+    source_code_link: "https://github.com/yohan98-dev",
   },
 ];
 

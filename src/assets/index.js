@@ -40,8 +40,10 @@ import fitness from "./fitness.png";
 import smoothScroll from "./SmoothScroll.png";
 import todo from "./todo.png";
 import port from "./port.png";
+import flappy from "./flappy.png";
 
 export {
+  flappy,
   port,
   blogapp,
   fitness,
