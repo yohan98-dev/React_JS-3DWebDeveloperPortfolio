@@ -41,8 +41,14 @@ import smoothScroll from "./SmoothScroll.png";
 import todo from "./todo.png";
 import port from "./port.png";
 import flappy from "./flappy.png";
+import jobapp from "./jobapp.jpg";
+import Entert from "./dotnet.png";
+import Eticket from "./eTickets.png";
 
 export {
+  Eticket,
+  jobapp,
+  Entert,
   flappy,
   port,
   blogapp,

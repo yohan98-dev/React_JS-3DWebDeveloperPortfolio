@@ -35,6 +35,9 @@ import {
   blogapp,
   port,
   flappy,
+  jobapp,
+  Entert,
+  Eticket,
 } from "../assets";
 
 export const navLinks = [
@@ -345,6 +348,56 @@ const projects = [
     ],
     image: flappy,
     source_code_link: "https://github.com/yohan98-dev",
+  },
+  {
+    name: "JobApp",
+    description: "Job searching app using React Native and Expo",
+    tags: [
+      {
+        name: "React_Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: " Expo",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jobapp,
+    source_code_link: "https://github.com/yohan98-dev/React-Native-JobApp",
+  },
+  {
+    name: "EntertainmentWEB",
+    description:
+      "Built using .NET Core (.NET 6) simple entertainment web With MVC",
+    tags: [
+      {
+        name: ".net",
+        color: "blue-text-gradient",
+      },
+      {
+        name: " C#",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Entert,
+    source_code_link: "https://github.com/yohan98-dev/ASP.Net-EntertainmentWeb",
+  },
+  {
+    name: "eTickets",
+    description:
+      "eCommerce applicaion to book movie tickets Online using ASP.NET Core - MVC",
+    tags: [
+      {
+        name: ".net",
+        color: "blue-text-gradient",
+      },
+      {
+        name: " C#",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Eticket,
+    source_code_link: "https://github.com/yohan98-dev/ASP.Net-eTickets",
   },
 ];
 
