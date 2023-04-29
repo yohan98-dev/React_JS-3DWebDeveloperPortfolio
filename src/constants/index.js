@@ -38,6 +38,7 @@ import {
   jobapp,
   Entert,
   Eticket,
+  Hettistore,
 } from "../assets";
 
 export const navLinks = [
@@ -269,26 +270,47 @@ const projects = [
     source_code_link: "https://github.com/yohan98-dev/React-js-FitnessApp",
   },
   {
-    name: "Smooth Scrolling Website",
+    name: "HettIStore",
     description:
-      "Simple website with HTML, CSS, and Smooth Scrolling mothion done with JavaScript.",
+      "E-commerce store using Angular/TypeScript, Express.js, and Stripe. Angular material and Tailwind to structure the UI. With working payment function with Stripe",
     tags: [
       {
-        name: "HTML",
+        name: "Angular",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
     ],
-    image: smoothScroll,
-    source_code_link: "https://github.com/yohan98-dev/JS-smoothScrollWeb",
+    image: Hettistore,
+    source_code_link: "https://github.com/yohan98-dev/Angular-WebStore",
   },
+  // {
+  //   name: "Smooth Scrolling Website",
+  //   description:
+  //     "Simple website with HTML, CSS, and Smooth Scrolling mothion done with JavaScript.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: smoothScroll,
+  //   source_code_link: "https://github.com/yohan98-dev/JS-smoothScrollWeb",
+  // },
   {
     name: "To-Do app",
     description: "Simple to-do  app with HTML,CSS and JavaScript .",
